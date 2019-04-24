@@ -5,7 +5,7 @@ const initialState = {
 };
 
 
-const SET_STATE_DATA_GETTING = 'core/SET_STATE_DATA_GETTING';
+const SET_STATE_DATA_GETTING = 'root/SET_STATE_DATA_GETTING';
 
 
 export const ActionsRoot = dispatch => ({
