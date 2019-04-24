@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "plugins": [
+      "react",
+      "jsx-a11y",
+      "import",
+      "react-hooks"
+  ],
+  "rules": {
+    // `.jsx` extension cannot be used with React Native
+    // https://github.com/airbnb/javascript/issues/982
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "no-use-before-define": "off",
+    "function-paren-newline": "off",
+    "global-require": 0,
+    "import/prefer-default-export": "off",
+    "class-methods-use-this": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "max-len": ["error", { "code": 120 }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
